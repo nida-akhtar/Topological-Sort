@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00BE3B3B2B3715E000A30D0C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BE3B3A2B3715E000A30D0C /* main.cpp */; };
+		00BE3B432B3715FE00A30D0C /* TopologicalSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BE3B422B3715FE00A30D0C /* TopologicalSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		00BE3B372B3715E000A30D0C /* Topological Sort LAB 10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Topological Sort LAB 10"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BE3B3A2B3715E000A30D0C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00BE3B412B3715EF00A30D0C /* TopologicalSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopologicalSort.h; sourceTree = "<group>"; };
+		00BE3B422B3715FE00A30D0C /* TopologicalSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopologicalSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				00BE3B3A2B3715E000A30D0C /* main.cpp */,
+				00BE3B412B3715EF00A30D0C /* TopologicalSort.h */,
+				00BE3B422B3715FE00A30D0C /* TopologicalSort.cpp */,
 			);
 			path = "Topological Sort LAB 10";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BE3B3B2B3715E000A30D0C /* main.cpp in Sources */,
+				00BE3B432B3715FE00A30D0C /* TopologicalSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
