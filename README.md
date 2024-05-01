@@ -11,10 +11,17 @@ Class Diagram:
 
 TopologicalSort
 +vertices: int
+
 +vector<vector<int>>adjacencies: void
+
 +unordered map<string, int> CityIndexex;
+
 +TopologicalSort (v: int): void
+
 +city (citynames: string, index: int): void
+
 +edge (city1: string, city2: string): void
+
 +Sort (v: int, vector<bool>&visited, stack<int>&result): void
+
 +vector<int>topologicalSort();
